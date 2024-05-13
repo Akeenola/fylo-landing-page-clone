@@ -1,0 +1,10 @@
+.start{background-color: blue;color: white;border-color: aqua;font-weight: 5px;width: 5%;}
+.search{width: 70%;}
+.container{width: 80%;margin: 20px;}
+img{width: 40%;}
+.text-corner1{float: left;display: inline;width: 50%; margin: 10px;}
+.hero{display:inline-flex;width: 100%;float: left;font-size:30px}
+p{display: inline;font-size: 15px;margin: auto; float: left;}
+.column1{width: 50%;background-color: aquamarine;padding: 10px;}
+.column1{width: 50%;}
+.column1-inner1,.column1-inner2{margin: 20px;}
