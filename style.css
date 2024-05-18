@@ -40,3 +40,15 @@ article{display: block;}
 .message{width: 50%;background-color: #e3ebec;}
 .image{width: 5px;border-radius: 50%;display: flex;}
 span h1{font-size: 10px;}
+footer{margin: 0px;clear: both;width: 100%;}
+.footer-1{margin: 0%;padding: 30px;color: aliceblue;display: flex;}
+.footer-1 article{width: 50%; }
+.footer-1 form button{background-color: blue;color: aliceblue;padding: 20px;font: 2em sans-serif;border: 0px;}
+
+.footer-1 form input{line-height: 10px;display: block;margin-bottom: 30px;}
+.footer-2{display:flex;width: 100%;}
+.footer-2 article {width: 100%;padding-top: 50px;}
+.footer-2 article ul li{list-style: none;line-height: 10px;color: azure;font: 1em sans-serif; padding: 20px;}
+.footer-2 a{text-decoration: none;color: bisque;}
+a:hover{color: green;font-size: 2em;}
+a:visited{color: rgb(218, 57, 8);}
