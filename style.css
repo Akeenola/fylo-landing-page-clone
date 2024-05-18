@@ -1,10 +1,42 @@
-.start{background-color: blue;color: white;border-color: aqua;font-weight: 5px;width: 5%;}
-.search{width: 70%;}
-.container{width: 80%;margin: 20px;}
-img{width: 40%;}
-.text-corner1{float: left;display: inline;width: 50%; margin: 10px;}
-.hero{display:inline-flex;width: 100%;float: left;font-size:30px}
-p{display: inline;font-size: 15px;margin: auto; float: left;}
-.column1{width: 50%;background-color: aquamarine;padding: 10px;}
-.column1{width: 50%;}
-.column1-inner1,.column1-inner2{margin: 20px;}
+body{margin: 20px 40px;font-family: Arial, Helvetica, sans-serif;}
+form .start{background-color: rgb(29, 106, 207);color: white;border-color: aqua;font-weight: 5px;width: 40%;
+    font-size: 5px;border: none;border-radius: 10%;line-height: 20px;align-items: center;}
+form .search{width: 50%;align-items: center;line-height: 20px;}
+form{padding: 10px 20px;}
+.container{width: 100%;margin: 40px;background-color: rgb(196, 223, 47);}
+
+.inner1{display: block;width: 50%; margin: 10px;float: left;padding:0px 20px;}
+.hero{display:inline-flex;width: 70%;float: left;font-size:30px}
+p.col-1,p.col-2{display: flex;font-size: 10px;margin: auto; float: left;}
+.column1{width: 80%;background-color: aquamarine;padding: 10px;}
+
+.column1-inner1,.column1-inner2{margin: 20px;display: flex;padding: 20px;}
+img{width: 40%;float: right;position: relative;}
+
+
+.footer-1{background-color: rgb(119, 119, 143);display: block;margin-bottom: 0px;}
+.footer-2{background-color: rgb(12, 17, 83);display: block;}
+nav ul{display: flex;text-decoration: none;list-style: none;justify-content:space-between;}
+
+div.section{margin: 40px;background-color: aqua;width: 80%;}
+.wrapper2 img {margin:40px;background-color: yellowgreen;width: 50%;}
+header{align-items: center;width: 80%;margin: 30px;}
+header .logo{align-items: center;float: left;width: 70%;}
+header .nav{margin: 30px;width: 10%;float: right;}
+div article h1{font: 2em sans-serif;}
+
+.article1{float: left;width: 60%;}
+.wrapper1{display: flex;background-color: rgb(218, 57, 8);width: 100%;padding:20px}
+.wrapper1 .image1{width:40%;margin:20px 20px;}
+.image1 img{width: 20em;}
+.wrapper1 .article1{width: 50%;margin: 10px;}
+.article1 button{background-color: rgb(39, 39, 231);color: bisque;padding:5px 20px;border: none;}
+.article1 input{padding: 5px 10px;}
+article{display: block;}
+.wrapper2{display: flex;background-color: blueviolet;width: 100%;margin: 10px 20px;}
+.wrapper2 .subwrap{display: block;width: 60%;margin: 0px 10px;}
+.wrapper2 .image2{width: 30%;margin: 0px 50px;}
+.image2 img{width: 20em;}
+.message{width: 50%;background-color: #e3ebec;}
+.image{width: 5px;border-radius: 50%;display: flex;}
+span h1{font-size: 10px;}
